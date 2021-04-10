@@ -1,0 +1,44 @@
+{
+    "name": "Template",
+    "tree": {
+        "$className": "DataModel",
+
+        "ReplicatedStorage": {
+            "$className": "ReplicatedStorage",
+            
+            "SharedModules": {
+                "$className": "Folder",
+                "$path": "src/Shared"
+            }
+        },
+
+        "ServerScriptService": {
+            "$className": "ServerScriptService",
+            "$path": "src/Server/Scripts",
+
+            "Modules": {
+                "$className": "Folder",
+                "$path": "src/Server/Modules"
+            }
+        },
+
+        "StarterPlayer": {
+            "$className": "StarterPlayer",
+
+            "StarterPlayerScripts": {
+                "$className": "StarterPlayerScripts",
+                "$path": "src/Client/Scripts/Player",
+
+                "Modules": {
+                    "$className": "Folder",
+                    "$path": "src/Client/Modules"
+                }
+            },
+
+            "StarterCharacterScripts": {
+                "$className": "StarterCharacterScripts",
+                "$path": "src/Client/Scripts/Character"
+            }
+        }
+    }
+}
